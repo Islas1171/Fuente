@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #336699;
+        }
+        #content {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Welcome to our Ice cream page for La Fuente Neveria!</h1>
+        <p>This is a simple web page created using HTML and JavaScript.</p>
+        <button onclick="displayMessage()"></button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function displayMessage() {
+            var messageElement = document.getElementById("Surprise");
+            messageElement.textContent = "Come on in!!";
+        }
+    </script>
+</body>
+</html>
